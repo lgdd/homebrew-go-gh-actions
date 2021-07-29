@@ -31,6 +31,6 @@ class GoGhActions < Formula
   end
 
   def install
-    bin.install "go-gh-actions"
+    bin.install "goghactions"
   end
 end
