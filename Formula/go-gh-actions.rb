@@ -5,28 +5,28 @@
 class GoGhActions < Formula
   desc "A sample go app testing GitHub Actions & GoReleaser."
   homepage "https://github.com/lgdd/go-gh-actions"
-  version "1.2.5"
+  version "1.2.6"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.5/go-gh-actions_1.2.5_macOS_64-bit.tar.gz"
-      sha256 "fb50c4e7ffee27ab20e7b3b1a546f06dfc0af78e9a78094d940a9ec0cdafb1df"
+      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.6/go-gh-actions_1.2.6_macOS_64-bit.tar.gz"
+      sha256 "9b4f6eb5adb665ef0f0c9a344ab6351c245a18db2f337f6f2883e3fb4e7cc8ec"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.5/go-gh-actions_1.2.5_macOS_arm64.tar.gz"
-      sha256 "20035a2232fbc35c984f294dd7ce43e20fb7165af2f2eef9a8aea50aa6919ce9"
+      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.6/go-gh-actions_1.2.6_macOS_arm64.tar.gz"
+      sha256 "b1bc210f76eca404f33fb626cb25d1024a3af34b281d630be37e20dfb987d54d"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.5/go-gh-actions_1.2.5_linux_64-bit.tar.gz"
-      sha256 "3b92dc91238528bcd2f619d2e1d8d762ff8294a5221c951d0af00e18b839f36d"
+      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.6/go-gh-actions_1.2.6_linux_64-bit.tar.gz"
+      sha256 "33acaa501c698338bbfbd9e724ea16ebcd347e9fe2897b1b20d4b67f010dcf42"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.5/go-gh-actions_1.2.5_linux_arm64.tar.gz"
-      sha256 "17553c890504edbcd2c403caf5b90c1b310ef83c2ac0e5f4e4ebbc2006ade0f2"
+      url "https://github.com/lgdd/go-gh-actions/releases/download/v1.2.6/go-gh-actions_1.2.6_linux_arm64.tar.gz"
+      sha256 "cbf8968f00a9a7864b5f20309678ac554d6ef98f0155ed483ba1a9dab652dee3"
     end
   end
 
